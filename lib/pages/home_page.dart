@@ -30,7 +30,6 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          // Container(color: kGreen),
           SafeArea(child: Container(color: kWhite)),
           SingleChildScrollView(
             child: SafeArea(
